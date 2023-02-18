@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Library Management System</h1>
+      <b>Book Name</b>
+      <input type="text" class="name" id="bookName" /><br />
+      <b>Issued To</b>
+      <input type="text" class="issued" id="user" /><br />
+      <button class="issue" id="btn">Issue Book</button>
+      <table>
+        <thead>
+          <tr class="col">
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

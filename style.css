@@ -1,0 +1,60 @@
+body{
+background-color: black;
+}
+.container{
+    margin: 30px; 
+    background-color: black;
+    width: 95%;
+    height: 100%;
+    padding: 5px 5px;   
+}
+*{
+    color:white;
+}
+h1{
+    margin-top: 0px;
+    font-size: 50px;
+}
+b{
+    font-size: 30px;
+    margin-right: 30px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid white;
+}
+.issued{
+    margin-left: 29px;
+}
+.issue{
+    color: black;
+    height: 35px;
+    width: 442px;
+    margin-bottom: 20px;
+}
+.issue:hover{
+    cursor: pointer;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+table tr{ 
+    text-align: center;   
+}
+table th,td{
+    border-right: 1px solid white;
+    width: 5%;   
+}
+
+.col{
+    border: 1px solid white;  
+}
